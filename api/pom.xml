@@ -35,7 +35,7 @@
     
     <groupId>org.jboss.spec.javax.faces</groupId>
     <artifactId>jboss-jsf-api_2.3_spec</artifactId>
-    <version>3.0.0.SP06-SNAPSHOT</version>
+    <version>3.0.0.SP06</version>
     <name>Jakarta Server Faces</name>
     <description>
         Jakarta Server Faces defines an MVC framework for building user interfaces for web applications, 
@@ -82,7 +82,8 @@
         <connection>scm:git:git@github.com:jboss/jboss-jakarta-faces-api.git</connection>
         <developerConnection>scm:git:git@github.com:jboss/jboss-jakarta-faces-api</developerConnection>
         <url>https://github.com/jboss/jboss-jakarta-faces-api</url>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
     <distributionManagement>
         <repository>
             <id>jboss-releases-repository</id>
@@ -113,7 +114,7 @@
         <developer>
             <id>ren.zhijun.oracle</id>
             <name>Zhijun Ren</name>
-            <email>ren.zhijun@oracle.com></email>
+            <email>ren.zhijun@oracle.com&gt;</email>
             <organization>Oracle America, Inc.</organization>
             <roles>
                 <role>comitter</role>
@@ -354,7 +355,7 @@
                         <phase>clean</phase>
                         <configuration>
                             <target>
-                                <delete dir="src/main/resources"/>
+                                <delete dir="src/main/resources" />
                             </target>
                         </configuration>
                         <goals>
